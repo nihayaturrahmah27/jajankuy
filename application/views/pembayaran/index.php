@@ -39,7 +39,7 @@
 									
 									<td class="p_quantity">
 										<div class="quantity">
-											<input type="number" name="<?=$i?>[qty]"class="form-control text-center" min="0">
+											<input type="number" name="<?=$i?>[qty]"class="form-control text-center" value="<?= $row['qty']; ?>" min="0">
 										</div>
 									</td>
 									</form>
