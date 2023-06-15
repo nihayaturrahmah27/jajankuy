@@ -103,24 +103,24 @@ class database extends CI_Controller {
         $this->load->view('database/footer');
         if(isset($_POST['ubah'])){
             $this->database_model->updateMenu();
-            echo '<script>alert("Berhasil edit Data."); document.location="'.base_url().'database";</script>';
+            echo '<script>alert("Berhasil edit Menu."); document.location="'.base_url().'database";</script>';
         }
     
     }
 
     public function deleteMenu($id){
         $this->database_model->hapusMenu($id);
-        echo '<script>alert("Berhasil Hapus Data."); document.location="'.base_url().'database";</script>';
+        echo '<script>alert("Berhasil Hapus Menu."); document.location="'.base_url().'database";</script>';
     }
 
     public function deleteRiwayatPenjualan($id){
         $this->database_model->hapusRiwayatPenjualan($id);
-        echo '<script>alert("Berhasil Hapus Data."); document.location="'.base_url().'database";</script>';
+        echo '<script>alert("Berhasil Hapus Riwayat Penjualan."); document.location="'.base_url().'database";</script>';
     }
 
     public function deleteUser($id){
         $this->database_model->hapusUser($id);
-        echo '<script>alert("Berhasil Hapus Data."); document.location="'.base_url().'database";</script>';
+        echo '<script>alert("Berhasil Hapus User."); document.location="'.base_url().'database";</script>';
     }
 }
 
