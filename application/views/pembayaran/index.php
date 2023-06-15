@@ -66,7 +66,6 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					<div class="block-stl10 odr-summary">
-							<h3>Daftar Pesanan :</h3>
 							<div class="ttl-all">
 								<span class="ttlnm">Total Bayar</span>
 								<span class="odr-stts"><?=rupiah($total_belanja) ?></span>
