@@ -41,7 +41,7 @@
                 <img src="<?= base_url(); ?>assets/images/admin.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <span>Welcome,</span>
+                <span>Selamat Datang,</span>
                 <h2>Admin</h2>
               </div>
             </div>
