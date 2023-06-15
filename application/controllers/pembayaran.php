@@ -32,8 +32,8 @@ class pembayaran extends CI_Controller {
                 $this->session->set_userdata($data);
                 $this->database_model->setRiwayat();
                 $this->cart->destroy();
-                echo "<script> alert('Terimakasih sudah membeli di Warung Kuning !'); document.location.href = 'index.php';</script>";
-            }else { echo "<script>alert('Maaf Saldo Anda Tidak Cukup!');history.go(-2);</script>"; }
+                echo "<script> alert('Terimakasih sudah memilih Warung Kuning !'); document.location.href = 'index.php';</script>";
+            }else { echo "<script>alert('Maaf Pesanan Gagal Dibuat');history.go(-2);</script>"; }
                 
         }
 	 
