@@ -1,7 +1,7 @@
 <div class="container" style="margin-top:20px">
     <center><font size="6">Data Users</font></center>
     <hr>
-    <a href="database.php?page=tambahUser"><button class="btn btn-dark right">Tambah Data</button></a>
+   
     <div class="table-responsive">
     <table class="table table-striped jambo_table bulk_action">
         <thead>

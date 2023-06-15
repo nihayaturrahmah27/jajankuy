@@ -3,7 +3,6 @@
         <font size="6">Data Menu </font>
     </center>
     <hr>
-    <a href="database.php?page=tambahMenu"><button class="btn btn-dark right">Tambah Data</button></a>
     <div class="table-responsive">
         <table class="table table-striped jambo_table bulk_action">
             <thead>

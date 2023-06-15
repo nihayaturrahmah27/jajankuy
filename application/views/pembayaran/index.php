@@ -28,9 +28,9 @@
 											</div>
 										</div>
 									</td>
-									<form action="<?= base_url('pembayaran/tambah/' . $row['rowid']) ?>" method="post">
+									
 									<td class="p_btn">
-										<button type="submit" class="btn1 stl3">Tambah</button>
+										
 										<a href="<?= base_url('pembayaran/hapus/' . $row['rowid']) ?>" class="btn1 stl3">Hapus</a>
 									</td>
 									<td class="p_price">
@@ -67,22 +67,16 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					<div class="block-stl10 odr-summary">
 							<h3>Pembayaran :</h3>
-							<ul class="list-unstyled">
-								<li><span class="ttl">Saldo Anda </span> <span class="stts"><?= rupiah($saldo) ?></span></li>
-								
-								
-							</ul>
 							<div class="ttl-all">
 								<span class="ttlnm">Total Bayar</span>
 								<span class="odr-stts"><?=rupiah($total_belanja) ?></span>
 							</div>
 						</div>
 						<form action="" method="post">
-							<input type="hidden" name="saldo" value="<?= $saldo ?>">
 							<input type="hidden" name="harga" value="<?=$total_belanja?>">
 							<input type="hidden" name="username" value="<?=$username?>">
 							<input type="hidden" name="tanggal" value="<?=date('Y-m-d');?>">
-							<button name="submit" class="btn btn1 stl2">Bayar</button>
+							<button name="submit" class="btn btn1 stl2">Pesan</button>
 						
 						</form>
 					</div>

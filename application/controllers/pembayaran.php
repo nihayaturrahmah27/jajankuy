@@ -13,7 +13,6 @@ class pembayaran extends CI_Controller {
         $data['username']= $this->session->userdata('username');
         $data['masuk']= $this->session->userdata('masuk');
 		$data['role']= $this->session->userdata('role');
-		$data['saldo']= $this->session->userdata('saldo');
         $data['keranjang']=$this->cart->contents();
         $data['total_belanja']=$this->cart->total();
 		$this->load->view('home/header');
@@ -25,15 +24,15 @@ class pembayaran extends CI_Controller {
             $harga = $this->input->post('harga',true);
             $saldo = $this->input->post('saldo',true);
             $total = $saldo-$harga;
-            if($saldo>=$harga){
+            if($saldo=$harga){
                 $this->database_model->potongSaldo($username,$total);
                 $data = [
-                    'saldo' => $total,
+                    'saldo' == $total,
                 ];
                 $this->session->set_userdata($data);
                 $this->database_model->setRiwayat();
                 $this->cart->destroy();
-                echo "<script> alert('Terimakasih sudah membeli di FastFood Kelompok 3 !'); document.location.href = 'index.php';</script>";
+                echo "<script> alert('Terimakasih sudah membeli di Warung Kuning !'); document.location.href = 'index.php';</script>";
             }else { echo "<script>alert('Maaf Saldo Anda Tidak Cukup!');history.go(-2);</script>"; }
                 
         }

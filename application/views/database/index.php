@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logowarkung.png" sizes="20x20">
 
     <title> Database Menu Makanan </title>
 
@@ -27,16 +27,18 @@
             <div class="navbar nav_title" style="border: 0;">
             <center>
             
-            <a href="<?= base_url(); ?>" ><span><img style="margin-left: 45px;margin-right: auto;margin-top: 7px;width:130px;" src="<?= base_url(); ?>assets/images/logo2.png" alt=""></span></a>
+            <a href="<?= base_url(); ?>" ><span><img style="margin-left: 45px;margin-right: auto;margin-top: 7px;width:130px;" src="<?= base_url(); ?>assets/images/logowarkun.png" alt=""></span></a>
             </center>
             </div>
 
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
+</br>
+</br>
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="<?= base_url(); ?>assets/images/user.png" alt="..." class="img-circle profile_img">
+                <img src="<?= base_url(); ?>assets/images/admin.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
@@ -84,7 +86,7 @@
               <ul class=" navbar-right">
                 <li class="nav-item dropdown open" >
                   <a href="#" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-                    <img src="<?= base_url(); ?>assets/images/user.png" alt="">Admin
+                    <img src="<?= base_url(); ?>assets/images/admin.jpg" alt="">Admin
                   </a>
                   <div style="margin-top:23px;"class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item"  href="<?= base_url(); ?>"> Home</a>

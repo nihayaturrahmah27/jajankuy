@@ -13,8 +13,8 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32" type="image/x-icon">
-	<link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32">
+    <link rel="shortcut icon" href="<?= base_url(); ?>assets/images/logowarkun.png" sizes="32x32" type="image/x-icon">
+	<link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logowarkun.png" sizes="32x32">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -34,7 +34,7 @@
                 <div class="col-lg">
                     <div class="p-5">
                         <div class="text-center">
-                        <img src="<?= base_url(); ?>assets/images/logo.png" width="100px" height="100px" />
+                        <img src="<?= base_url(); ?>assets/images/logowarkun.png" width="200px" height="200px" />
                             <h1 class="h4 text-gray-900 mb-4">Buat Akun</h1>
                         </div>
                         <form class="user" method="post" action="<?= base_url('registrasi'); ?>">

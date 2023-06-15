@@ -5,10 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajanya FastFood</title>
+    <title>Warkun!</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32" type="image/x-icon">
-    <link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32">
+    <link rel="shortcut icon" href="<?= base_url(); ?>assets/images/logowarkun.png" sizes="32x32" type="image/x-icon">
+    <link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logowarkun.png" sizes="32x32">
     <!-- include the site stylesheet -->
     <link href="<?= base_url(); ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -25,7 +25,7 @@
 <body>
     <div class="loader_wrapper">
         <div class="loader">
-            <img src="<?= base_url(); ?>assets/images/loader.gif" alt="" class="img-fluid">
+            <img src="<?= base_url(); ?>assets/images/logowarkun.png" alt="" class="img-fluid">
         </div>
     </div>
     <!--// loader_wrapper -->

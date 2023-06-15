@@ -10,8 +10,8 @@
     <meta name="author" content="">
 
     <title>Login</title>
-    <link rel="shortcut icon" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32" type="image/x-icon">
-	<link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logo.png" sizes="32x32">
+    <link rel="shortcut icon" href="<?= base_url(); ?>assets/images/logowarkun.png" sizes="32x32" type="image/x-icon">
+	<link rel="icon" type="image/png" href="<?= base_url(); ?>assets/images/logowarkun.png" sizes="32x32">
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -39,7 +39,7 @@
                             <div class="col-lg">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <img src="<?= base_url(); ?>assets/images/logo.png" width="100px" height="100px" />
+                                        <img src="<?= base_url(); ?>assets/images/logowarkun.png" width="200px" height="200px" />
                                         <h1 class="h4 text-gray-900 mb-4">Login Page</h1>
                                     </div>
                                     <?= $this->session->flashdata('message'); ?>

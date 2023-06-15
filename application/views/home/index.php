@@ -8,19 +8,19 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="img-block img2">
-                                <div class="img-holder" data-animation-in="bounceInUp"
-                                    data-animation-out="animate-out fadeOutRight">
-                                    <img src="assets/images/slider-png1.png" alt="" class="img-responsive">
+                            <div class="img-holder" data-animation-in="bounceInUp"
+                                    data-animation-out="animate-in fadeOutLeft">
+                                    <img style="height:500px;" src="assets/images/ayam.png" alt="" class="img-responsive">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="text-block-stl1">
                                 <div class="title">
-                                    <p class="top-h" data-animation-in="fadeInDown"
+                                    <p class="top-h" data-animation-in="fadeInUp"
                                         data-animation-out="animate-out fadeOutRight">Sehat $ Bergizi</p>
                                     <h2 data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">
-                                        Terbuat dari bahan organik</h2>
+                                        Semua masakan dibuat dengan bahan alami</h2>
                                     <p class="bottom-p" data-animation-in="fadeInUp"
                                         data-animation-out="animate-out fadeOutRight">Dengan Makan makanan bergizi kita dapat membuat hidup lebih sehat. </p>
                                     <a href="#menu-makanan" class="btn1 stl2" data-animation-in="fadeInUp"
@@ -40,7 +40,7 @@
                             <div class="img-block img2">
                                 <div class="img-holder" data-animation-in="bounceInUp"
                                     data-animation-out="animate-out fadeOutRight">
-                                    <img style="height:500px;" src="assets/images/pz.png" alt="" class="img-responsive">
+                                    <img style="height:500px;" src="assets/images/uduk.png" alt="" class="img-responsive">
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                                     <h2 data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">
                                         Meningkatkan Nafsu Makan</h2>
                                     <p class="bottom-p" data-animation-in="fadeInUp"
-                                        data-animation-out="animate-out fadeOutRight">Dengan membeli makanan dari kami kalian akan mendapatkan sajian tampilan yang menambah selera makan. </p>
+                                        data-animation-out="animate-out fadeOutRight">Ayo beli di warung kuning! </p>
                                     <a href="#menu-makanan" class="btn1 stl2" data-animation-in="fadeInUp"
                                         data-animation-out="animate-out fadeOutRight">Beli Sekarang</a>
                                 </div>
@@ -75,7 +75,7 @@
                     <h2>Menu Makanan</h2>
                     <div class="btm-style"><span><img src="assets/images/clr2/btm-style.png" alt=""
                                 class="img-responsive"></span></div>
-                    <p class="bottom-p">Terbuat Dari Bahan Yang Berkualitas, Dimasak Dengan Profesional</p>
+                    <p class="bottom-p">Terbuat Dari Bahan Yang Berkualitas, Dimasak Dengan Penuh Cinta</p>
                 </div>
             </div>
             <?php 
