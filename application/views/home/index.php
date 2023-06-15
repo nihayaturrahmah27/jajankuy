@@ -133,7 +133,7 @@
                                 <p class="price"><span><?=rupiah($row2['harga']); ?></span></p>
                             </div>
                             <div class="btn-sec">
-                                <a href="<?= base_url('pembayaran') ?>?id=<?= $row2['id']; ?>" class="btn1 stl2">Tambah Ke Keranjang</a>
+                            <a href="<?= base_url('home') ?>/tambah_ke_keranjang/<?= $row['id']; ?>" class="btn1 stl2">Tambah Ke Keranjang</a>
                             </div>
                         </div>
                     </div>

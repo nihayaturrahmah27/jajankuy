@@ -6,7 +6,7 @@
 							<table class="table cart-tbl">
 							<thead>
 								<tr>
-									<th class="p_dtl">Product Details</th>
+									<th class="p_dtl">Detail Pemesanan</th>
 									<th class="p_btn"></th>
 									<th class="p_price">Harga</th>
 									<th class="p_quantity">Jumlah</th>
@@ -66,7 +66,6 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					<div class="block-stl10 odr-summary">
-							<h3>Pembayaran :</h3>
 							<div class="ttl-all">
 								<span class="ttlnm">Total Bayar</span>
 								<span class="odr-stts"><?=rupiah($total_belanja) ?></span>
