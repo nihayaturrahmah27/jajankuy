@@ -18,7 +18,7 @@
 								<li class="drop"><a href="" class="flaticon-profile"></a>
 									<ul class="drop-down">
 										<?php if ($role === 'admin') { ?> <li><a href="<?= base_url('database') ?>" style="color:black;">Database</a></li><?php } ?>
-										<li><a href="<?= base_url('logout') ?>" style="color:black;">Keluar</a></li>
+										<li><a href="<?= base_url('logout') ?>" style="color:black;">Logout</a></li>
 									</ul>
 								</li>
 
