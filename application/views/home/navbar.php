@@ -11,19 +11,21 @@
 
 							<li><a href="<?= base_url() ?>">Home</a></li>
 							<li><a href="#menu-makanan">Menu Makanan</a></li>
-							<?php if(isset($masuk)){ ?>
-							<li ><a href="<?= base_url('pembayaran') ?>"><i class="flaticon-shopping-bag" ></i></a> <div class="badge badge-warning" ><?= $this->cart->total_items() ?></div></li>
-							<li class="drop"><a href="" class="flaticon-profile"></a>
-								<ul class="drop-down">
-									<?php if($role==='admin'){ ?> <li ><a href="<?= base_url('database') ?>" style="color:black;">Database</a></li><?php } ?>
-									<li><a href="<?= base_url('logout') ?>" style="color:black;">Logout</a></li>
-								</ul>
-							</li>
-							
+							<?php if (isset($masuk)) { ?>
+								<li><a href="<?= base_url('pembayaran') ?>"><i class="flaticon-shopping-bag"></i></a>
+									<div class="badge badge-warning"><?= $this->cart->total_items() ?></div>
+								</li>
+								<li class="drop"><a href="" class="flaticon-profile"></a>
+									<ul class="drop-down">
+										<?php if ($role === 'admin') { ?> <li><a href="<?= base_url('database') ?>" style="color:black;">Database</a></li><?php } ?>
+										<li><a href="<?= base_url('logout') ?>" style="color:black;">Keluar</a></li>
+									</ul>
+								</li>
+
 							<?php } else { ?>
 
-							<li><a href="<?= base_url('login') ?>"><i class="flaticon-profile" style="margin-right: 10px;"></i>Login</a></li>
-							
+								<li><a href="<?= base_url('login') ?>"><i class="flaticon-profile" style="margin-right: 10px;"></i>Login</a></li>
+
 							<?php } ?>
 						</ul>
 
