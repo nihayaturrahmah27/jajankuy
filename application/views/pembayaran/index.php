@@ -6,7 +6,7 @@
 							<table class="table cart-tbl">
 							<thead>
 								<tr>
-									<th class="p_dtl">Product Details</th>
+									<th class="p_dtl">Detail Pemesanan</th>
 									<th class="p_btn"></th>
 									<th class="p_price">Harga</th>
 									<th class="p_quantity">Jumlah</th>
@@ -39,7 +39,7 @@
 									
 									<td class="p_quantity">
 										<div class="quantity">
-											<input type="number" name="<?=$i?>[qty]"class="form-control text-center" value="<?= $row['qty']; ?>" min="0">
+											<input type="number" name="<?=$i?>[qty]"class="form-control text-center"; ?>" min="0">
 										</div>
 									</td>
 									</form>
