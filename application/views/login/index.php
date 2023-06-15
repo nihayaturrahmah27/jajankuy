@@ -40,7 +40,7 @@
                                 <div class="p-5">
                                     <div class="text-center">
                                         <img src="<?= base_url(); ?>assets/images/logowarkun.png" width="200px" height="200px" />
-                                        <h1 class="h4 text-gray-900 mb-4">Login Page</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Halaman Login</h1>
                                     </div>
                                     <?= $this->session->flashdata('message'); ?>
                                     <form class="user" method="post" action="<?= base_url('login'); ?>">
@@ -58,8 +58,7 @@
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Remember
-                                                    Me</label>
+                                                <label class="custom-control-label" for="customCheck">Ingat Selalu</label>
                                             </div>
                                         </div>
                                         <button class="btn btn-primary btn-user btn-block">
