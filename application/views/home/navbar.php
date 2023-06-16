@@ -10,7 +10,7 @@
 						<ul class="list-unstyled">
 
 							<li><a href="<?= base_url() ?>">Home</a></li>
-							<li><a href="#menu-makanan">Menu Makanan</a></li>
+							<li><a href="#menu-makanan">Menu Minuman</a></li>
 							<?php if (isset($masuk)) { ?>
 								<li><a href="<?= base_url('pembayaran') ?>"><i class="flaticon-shopping-bag"></i></a>
 									<div class="badge badge-warning"><?= $this->cart->total_items() ?></div>
