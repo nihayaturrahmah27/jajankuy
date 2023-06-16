@@ -1,7 +1,7 @@
 <footer>
     <div class="copy-right">
         <div class="container">
-            <p><a target="_blank">Warung Kuning</a></p>
+            <p><a target="_blank">Warkun</a></p>
             <ul class="social-nav">
                 <li><a href="#"><i class="flaticon-facebook-logo"></i></a></li>
                 <li><a href="#"><i class="flaticon-twitter"></i></a></li>
@@ -15,8 +15,7 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <!-- bootstrap -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
 </script>
 <!-- bootstrap -->
 <script src="assets/js/owl.carousel.min.js"></script>
