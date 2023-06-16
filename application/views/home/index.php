@@ -8,8 +8,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="img-block img2">
-                            <div class="img-holder" data-animation-in="bounceInUp"
-                                    data-animation-out="animate-in fadeOutLeft">
+                                <div class="img-holder" data-animation-in="bounceInUp" data-animation-out="animate-in fadeOutLeft">
                                     <img style="height:500px;" src="assets/images/ayam.png" alt="" class="img-responsive">
                                 </div>
                             </div>
@@ -17,14 +16,11 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="text-block-stl1">
                                 <div class="title">
-                                    <p class="top-h" data-animation-in="fadeInUp"
-                                        data-animation-out="animate-out fadeOutRight">Sehat $ Bergizi</p>
+                                    <p class="top-h" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight">Sehat $ Bergizi</p>
                                     <h2 data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">
                                         Semua masakan dibuat dengan bahan alami</h2>
-                                    <p class="bottom-p" data-animation-in="fadeInUp"
-                                        data-animation-out="animate-out fadeOutRight">Dengan Makan makanan bergizi kita dapat membuat hidup lebih sehat. </p>
-                                    <a href="#menu-makanan" class="btn1 stl2" data-animation-in="fadeInUp"
-                                        data-animation-out="animate-out fadeOutRight">Beli Sekarang</a>
+                                    <p class="bottom-p" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight">Dengan Makan makanan bergizi kita dapat membuat hidup lebih sehat. </p>
+                                    <a href="#menu-makanan" class="btn1 stl2" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight">Beli Sekarang</a>
                                 </div>
                             </div>
                         </div>
@@ -38,8 +34,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="img-block img2">
-                                <div class="img-holder" data-animation-in="bounceInUp"
-                                    data-animation-out="animate-out fadeOutRight">
+                                <div class="img-holder" data-animation-in="bounceInUp" data-animation-out="animate-out fadeOutRight">
                                     <img style="height:500px;" src="assets/images/uduk.png" alt="" class="img-responsive">
                                 </div>
                             </div>
@@ -47,14 +42,11 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="text-block-stl1">
                                 <div class="title">
-                                    <p class="top-h" data-animation-in="fadeInDown"
-                                        data-animation-out="animate-out fadeOutRight">Menggugah Selera</p>
+                                    <p class="top-h" data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Menggugah Selera</p>
                                     <h2 data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight">
                                         Meningkatkan Nafsu Makan</h2>
-                                    <p class="bottom-p" data-animation-in="fadeInUp"
-                                        data-animation-out="animate-out fadeOutRight">Ayo beli di warung kuning! </p>
-                                    <a href="#menu-makanan" class="btn1 stl2" data-animation-in="fadeInUp"
-                                        data-animation-out="animate-out fadeOutRight">Beli Sekarang</a>
+                                    <p class="bottom-p" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight">Ayo beli di warkun! </p>
+                                    <a href="#menu-makanan" class="btn1 stl2" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight">Beli Sekarang</a>
                                 </div>
                             </div>
                         </div>
@@ -73,30 +65,29 @@
                 <div class="title">
                     <p class="top-h">Rasakan Kenikmatannya</p>
                     <h2>Menu Makanan</h2>
-                    <div class="btm-style"><span><img src="assets/images/clr2/btm-style.png" alt=""
-                                class="img-responsive"></span></div>
+                    <div class="btm-style"><span><img src="assets/images/clr2/btm-style.png" alt="" class="img-responsive"></span></div>
                     <p class="bottom-p">Terbuat Dari Bahan Yang Berkualitas, Dimasak Dengan Penuh Cinta</p>
                 </div>
             </div>
-            <?php 
-              foreach ($tampilMenu as $row) :        
-          ?>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="block-stl2">
-                    <div class="img-holder">
-                        <img src="<?= base_url(); ?>upload/<?= $row['gambar']; ?>" alt="" class="img-responsive">
+            <?php
+            foreach ($tampilMenu as $row) :
+            ?>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="block-stl2">
+                        <div class="img-holder">
+                            <img src="<?= base_url(); ?>upload/<?= $row['gambar']; ?>" alt="" class="img-responsive">
+                        </div>
+                        <div class="text-block">
+                            <h3><?= $row['nama']; ?></h3>
+                            <p class="sz">Size : <?= $row['ukuran']; ?></p>
+                            <p class="price"><span><?= rupiah($row['harga']); ?></span></p>
+                        </div>
+                        <div class="btn-sec">
+                            <a href="<?= base_url('home') ?>/tambah_ke_keranjang/<?= $row['id']; ?>" class="btn1 stl2">Tambah Ke Keranjang</a>
+                        </div>
+                        <span class="nonveg veg-nonveg"></span>
                     </div>
-                    <div class="text-block">
-                        <h3><?= $row['nama']; ?></h3>
-                        <p class="sz">Size : <?= $row['ukuran']; ?></p>
-                        <p class="price"><span><?=rupiah($row['harga']); ?></span></p>
-                    </div>
-                    <div class="btn-sec">
-                        <a href="<?= base_url('home') ?>/tambah_ke_keranjang/<?= $row['id']; ?>" class="btn1 stl2">Tambah Ke Keranjang</a>
-                    </div>
-                    <span class="nonveg veg-nonveg"></span>
                 </div>
-            </div>
             <?php endforeach ?>
         </div>
     </div>
@@ -112,31 +103,30 @@
                 <div class="title">
                     <p class="top-h">todays special</p>
                     <h2>Best Seller</h2>
-                    <div class="btm-style"><span><img src="assets/images/clr2/btm-style.png" alt=""
-                                class="img-responsive"></span></div>
+                    <div class="btm-style"><span><img src="assets/images/clr2/btm-style.png" alt="" class="img-responsive"></span></div>
                     <p class="bottom-p">Menu yang paling banyak diincar orang-orang lapar</p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="item-slider1 owl-carousel owl-theme">
-                    <?php 
-						foreach ($tampilMenu as $row2) :       
-					?>
-                    <div class="item">
-                        <div class="block-stl2">
-                            <div class="img-holder">
-                                <img src="<?= base_url(); ?>upload/<?= $row2['gambar']; ?>" alt="" class="img-responsive">
-                            </div>
-                            <div class="text-block">
-                                <h3><?= $row2['nama']; ?></h3>
-                                <p class="sz">Size : <?= $row2['ukuran']; ?></p>
-                                <p class="price"><span><?=rupiah($row2['harga']); ?></span></p>
-                            </div>
-                            <div class="btn-sec">
-                            <a href="<?= base_url('home') ?>/tambah_ke_keranjang/<?= $row['id']; ?>" class="btn1 stl2">Tambah Ke Keranjang</a>
+                    <?php
+                    foreach ($tampilMenu as $row2) :
+                    ?>
+                        <div class="item">
+                            <div class="block-stl2">
+                                <div class="img-holder">
+                                    <img src="<?= base_url(); ?>upload/<?= $row2['gambar']; ?>" alt="" class="img-responsive">
+                                </div>
+                                <div class="text-block">
+                                    <h3><?= $row2['nama']; ?></h3>
+                                    <p class="sz">Size : <?= $row2['ukuran']; ?></p>
+                                    <p class="price"><span><?= rupiah($row2['harga']); ?></span></p>
+                                </div>
+                                <div class="btn-sec">
+                                    <a href="<?= base_url('home') ?>/tambah_ke_keranjang/<?= $row['id']; ?>" class="btn1 stl2">Tambah Ke Keranjang</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <?php endforeach ?>
                 </div>
 

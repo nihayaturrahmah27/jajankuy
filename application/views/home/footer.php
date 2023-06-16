@@ -1,7 +1,7 @@
 <footer>
     <div class="copy-right">
         <div class="container">
-            <p><a target="_blank">Warkun</a></p>
+            <p><a target="_blank">Warung Kuning</a></p>
             <ul class="social-nav">
                 <li><a href="#"><i class="flaticon-facebook-logo"></i></a></li>
                 <li><a href="#"><i class="flaticon-twitter"></i></a></li>
