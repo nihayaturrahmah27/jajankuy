@@ -67,7 +67,7 @@
 
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="<?= base_url('registrasi') ?>">Belum Punya Akun? Buat Akun sekarang!</a>
+                                        <a class="small" href="<?= base_url('registrasi') ?>">Buat Akun sekarang!</a>
                                     </div>
                                 </div>
                             </div>
